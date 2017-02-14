@@ -6,7 +6,7 @@
 //  Copyright © 2017年 Wicky. All rights reserved.
 //
 
-#import "DWCheckBoxView.h"
+#import "DWCheckBox.h"
 
 @interface CustomLayout : DWCheckBoxLayout
 

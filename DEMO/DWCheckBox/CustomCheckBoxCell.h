@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DWCheckBoxView.h"
+#import "DWCheckBox.h"
 
 @interface CustomCheckBoxCell : UIButton<DWCheckBoxCellProtocol>
 

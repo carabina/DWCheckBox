@@ -14,7 +14,7 @@
 		9BB287D01E5054D70016FED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BB287CF1E5054D70016FED8 /* Assets.xcassets */; };
 		9BB287D31E5054D70016FED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BB287D11E5054D70016FED8 /* LaunchScreen.storyboard */; };
 		9BB287DC1E5055350016FED8 /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB287DB1E5055350016FED8 /* DViewController.m */; };
-		9BB287DF1E5057D00016FED8 /* DWCheckBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB287DE1E5057D00016FED8 /* DWCheckBoxView.m */; };
+		9BB287DF1E5057D00016FED8 /* DWCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB287DE1E5057D00016FED8 /* DWCheckBox.m */; };
 		9BB287E31E50B59E0016FED8 /* DWCheckBoxBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BB287E21E50B59E0016FED8 /* DWCheckBoxBundle.bundle */; };
 		9BB287E91E5207340016FED8 /* DWTableViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB287E81E5207340016FED8 /* DWTableViewHelper.m */; };
 		9BB287EC1E5207ED0016FED8 /* VCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB287EB1E5207ED0016FED8 /* VCModel.m */; };
@@ -41,8 +41,8 @@
 		9BB287D41E5054D70016FED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BB287DA1E5055350016FED8 /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
 		9BB287DB1E5055350016FED8 /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
-		9BB287DD1E5057D00016FED8 /* DWCheckBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWCheckBoxView.h; sourceTree = "<group>"; };
-		9BB287DE1E5057D00016FED8 /* DWCheckBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWCheckBoxView.m; sourceTree = "<group>"; };
+		9BB287DD1E5057D00016FED8 /* DWCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWCheckBox.h; sourceTree = "<group>"; };
+		9BB287DE1E5057D00016FED8 /* DWCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWCheckBox.m; sourceTree = "<group>"; };
 		9BB287E21E50B59E0016FED8 /* DWCheckBoxBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DWCheckBoxBundle.bundle; sourceTree = "<group>"; };
 		9BB287E71E5207340016FED8 /* DWTableViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTableViewHelper.h; sourceTree = "<group>"; };
 		9BB287E81E5207340016FED8 /* DWTableViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTableViewHelper.m; sourceTree = "<group>"; };
@@ -139,8 +139,8 @@
 		9BB288031E52DC430016FED8 /* DWCheckBoxView */ = {
 			isa = PBXGroup;
 			children = (
-				9BB287DD1E5057D00016FED8 /* DWCheckBoxView.h */,
-				9BB287DE1E5057D00016FED8 /* DWCheckBoxView.m */,
+				9BB287DD1E5057D00016FED8 /* DWCheckBox.h */,
+				9BB287DE1E5057D00016FED8 /* DWCheckBox.m */,
 				9BB287E21E50B59E0016FED8 /* DWCheckBoxBundle.bundle */,
 			);
 			path = DWCheckBoxView;
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB287DF1E5057D00016FED8 /* DWCheckBoxView.m in Sources */,
+				9BB287DF1E5057D00016FED8 /* DWCheckBox.m in Sources */,
 				9BB287CB1E5054D70016FED8 /* ViewController.m in Sources */,
 				9BB287FB1E5213500016FED8 /* CViewController.m in Sources */,
 				9BB287E91E5207340016FED8 /* DWTableViewHelper.m in Sources */,

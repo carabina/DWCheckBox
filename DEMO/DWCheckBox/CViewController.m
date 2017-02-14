@@ -7,7 +7,7 @@
 //
 
 #import "CViewController.h"
-#import "DWCheckBoxView.h"
+#import "DWCheckBox.h"
 #import "CustomCheckBoxCell.h"
 @interface CViewController ()
 

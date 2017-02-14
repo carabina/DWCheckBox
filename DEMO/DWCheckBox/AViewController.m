@@ -7,7 +7,7 @@
 //
 
 #import "AViewController.h"
-#import "DWCheckBoxView.h"
+#import "DWCheckBox.h"
 @interface AViewController ()
 
 @end

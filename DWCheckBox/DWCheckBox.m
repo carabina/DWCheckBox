@@ -1,12 +1,12 @@
 //
-//  DWChechBoxView.m
+//  DWChechBox.m
 //  DWCheckBox
 //
 //  Created by Wicky on 2017/2/12.
 //  Copyright © 2017年 Wicky. All rights reserved.
 //
 
-#import "DWCheckBoxView.h"
+#import "DWCheckBox.h"
 
 #define __Select__Block__ \
 if (self.selectedChangeBlock) {\

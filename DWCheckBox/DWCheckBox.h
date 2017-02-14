@@ -1,5 +1,5 @@
 //
-//  DWChechBoxView.h
+//  DWChechBox.h
 //  DWCheckBox
 //
 //  Created by Wicky on 2017/2/12.
@@ -7,7 +7,7 @@
 //
 
 /**
- DWCheckBoxView
+ DWCheckBox
  
  复选框视图
  

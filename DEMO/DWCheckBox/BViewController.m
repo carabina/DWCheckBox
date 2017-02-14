@@ -7,7 +7,7 @@
 //
 
 #import "BViewController.h"
-#import "DWCheckBoxView.h"
+#import "DWCheckBox.h"
 #import "CustomLayout.h"
 @interface BViewController ()
 
