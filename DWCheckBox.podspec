@@ -10,6 +10,5 @@ s.source = { :git => 'https://github.com/CodeWicky/DWCheckBox.git', :tag => s.ve
 s.requires_arc = true
 s.ios.deployment_target = '7.0'
 s.source_files = 'DWCheckBox/*.{h,m,bundle}'
-end
-
 s.frameworks = 'UIKit'
+end
